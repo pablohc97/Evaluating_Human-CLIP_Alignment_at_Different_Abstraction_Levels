@@ -1,0 +1,1 @@
+# Evaluating_Human-CLIP_Alignment_at_Different_Abstraction_Levels

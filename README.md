@@ -6,6 +6,13 @@ We compute human alignment using three different abstraction levels at every mod
 
 ## Data of different abstractions
 
+<p align="center">
+    <img src="./Plots/databases_examples.svg" width="480" height="200" />
+</p>
+
+Low abstraction: TID2013 database: same image.
+Middle abstraction: NIGHTS perceptual: same class.
+High abstraction: THINGS-odd-one-out: different class.
 
 ## Experiments
 

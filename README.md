@@ -7,11 +7,7 @@ We compute human alignment using three different abstraction levels at every mod
 ## Data of different abstractions
 
 <p align="center">
-<<<<<<< HEAD
     <img src="./Plots/databases.png" width="600" height="200" />
-=======
-    <img src="./Plots/databases_example.svg" width="1000" height="500" />
->>>>>>> 485cfcc018eb25c3d2e3df70f1a3ed923cac9dec
 </p>
 
 Low abstraction: TID2013 database: same image.

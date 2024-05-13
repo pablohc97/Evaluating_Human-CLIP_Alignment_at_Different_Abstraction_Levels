@@ -7,7 +7,11 @@ We compute human alignment using three different abstraction levels at every mod
 ## Data of different abstractions
 
 <p align="center">
+<<<<<<< HEAD
     <img src="./Plots/databases.png" width="600" height="200" />
+=======
+    <img src="./Plots/databases_example.svg" width="1000" height="500" />
+>>>>>>> 485cfcc018eb25c3d2e3df70f1a3ed923cac9dec
 </p>
 
 Low abstraction: TID2013 database: same image.
@@ -18,15 +22,15 @@ High abstraction: THINGS-odd-one-out: different class.
 
 We analyze how different model configurations or training procedures affect the human alignment:
 
-- Different distance measurements: Compare between plain Euclidean, cosine similarity and a normalized Euclidean (all features have unit mean over the dataset).
+- Different distance measurements: Compare plain Euclidean, cosine similarity and a normalized Euclidean (all features have a unit mean over the dataset).
 
-- Architecture: Compare between base-patch16, base-patch32, large-patch14, large-patch14-336. Base vs large have different number of layers; patchY divide the images into patches of Y x Y pixels; -336 model resize the images to 336x336 pixels instead of 224x244 and has more number of patches.
+- Architecture: Compare base-patch16, base-patch32, large-patch14, large-patch14-336. Base vs large have different numbers of layers; patchY divides the images into patches of Y x Y pixels; the -336 model resizes the images to 336x336 pixels instead of 224x244 and has more patches.
 
-- Data nature: Compare between CLIP trained on natural images and CLIP trained on medical data.
+- Data nature: Compare CLIP trained on natural images and CLIP trained on medical data.
 
-- Last activation function: Compare between usual CLIP softmax activation function and SigLIP which replaces it with a sigmoid.
+- Last activation function: Compare the usual CLIP softmax activation function and SigLIP which replaces it with a sigmoid.
 
-- Language: Compare between English vs Chinese trained CLIP.
+- Language: Compare English vs Chinese-trained CLIP.
 
 ## Citation
 
